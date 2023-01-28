@@ -11,6 +11,7 @@
 		6EB76D502985704100CC7731 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EB76D4F2985704100CC7731 /* Assets.xcassets */; };
 		6EB76D532985704100CC7731 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EB76D522985704100CC7731 /* Preview Assets.xcassets */; };
 		6EB76D5B298570DD00CC7731 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB76D5A298570DD00CC7731 /* AnimationView.swift */; };
+		6EB76D5E2985743B00CC7731 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 6EB76D5D2985743B00CC7731 /* Lottie */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EB76D5E2985743B00CC7731 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +93,9 @@
 			dependencies = (
 			);
 			name = LottieAnimationsList;
+			packageProductDependencies = (
+				6EB76D5D2985743B00CC7731 /* Lottie */,
+			);
 			productName = LottieAnimationsList;
 			productReference = 6EB76D482985703F00CC7731 /* LottieAnimationsList.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +124,9 @@
 				Base,
 			);
 			mainGroup = 6EB76D3F2985703F00CC7731;
+			packageReferences = (
+				6EB76D5C2985743B00CC7731 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 6EB76D492985703F00CC7731 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -347,6 +355,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6EB76D5C2985743B00CC7731 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6EB76D5D2985743B00CC7731 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6EB76D5C2985743B00CC7731 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6EB76D402985703F00CC7731 /* Project object */;
 }
