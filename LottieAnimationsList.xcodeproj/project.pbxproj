@@ -10,13 +10,13 @@
 		6EB76D4C2985703F00CC7731 /* LottieAnimationsListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB76D4B2985703F00CC7731 /* LottieAnimationsListApp.swift */; };
 		6EB76D502985704100CC7731 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EB76D4F2985704100CC7731 /* Assets.xcassets */; };
 		6EB76D532985704100CC7731 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EB76D522985704100CC7731 /* Preview Assets.xcassets */; };
-		6EB76D5B298570DD00CC7731 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB76D5A298570DD00CC7731 /* AnimationView.swift */; };
 		6EB76D5E2985743B00CC7731 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 6EB76D5D2985743B00CC7731 /* Lottie */; };
 		6EB76D60298574B500CC7731 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB76D5F298574B500CC7731 /* LottieView.swift */; };
 		6EB76D642985755D00CC7731 /* 133580-rocket.json in Resources */ = {isa = PBXBuildFile; fileRef = 6EB76D632985755D00CC7731 /* 133580-rocket.json */; };
 		6EB76D66298575B000CC7731 /* 132375-hypercube.json in Resources */ = {isa = PBXBuildFile; fileRef = 6EB76D65298575AF00CC7731 /* 132375-hypercube.json */; };
 		6EB76D68298575B600CC7731 /* 130334-sweet-run-cycle.json in Resources */ = {isa = PBXBuildFile; fileRef = 6EB76D67298575B600CC7731 /* 130334-sweet-run-cycle.json */; };
 		6EB76D6A2985764900CC7731 /* FavouriteAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB76D692985764900CC7731 /* FavouriteAnimation.swift */; };
+		6EB76D6C2985780B00CC7731 /* AnimationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB76D6B2985780B00CC7731 /* AnimationsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,12 +24,12 @@
 		6EB76D4B2985703F00CC7731 /* LottieAnimationsListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimationsListApp.swift; sourceTree = "<group>"; };
 		6EB76D4F2985704100CC7731 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6EB76D522985704100CC7731 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6EB76D5A298570DD00CC7731 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		6EB76D5F298574B500CC7731 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		6EB76D632985755D00CC7731 /* 133580-rocket.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "133580-rocket.json"; path = "../../../../../../Downloads/133580-rocket.json"; sourceTree = "<group>"; };
 		6EB76D65298575AF00CC7731 /* 132375-hypercube.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "132375-hypercube.json"; path = "../../../../../../Downloads/132375-hypercube.json"; sourceTree = "<group>"; };
 		6EB76D67298575B600CC7731 /* 130334-sweet-run-cycle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "130334-sweet-run-cycle.json"; path = "../../../../../../Downloads/130334-sweet-run-cycle.json"; sourceTree = "<group>"; };
 		6EB76D692985764900CC7731 /* FavouriteAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteAnimation.swift; sourceTree = "<group>"; };
+		6EB76D6B2985780B00CC7731 /* AnimationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 		6EB76D59298570CF00CC7731 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				6EB76D5A298570DD00CC7731 /* AnimationView.swift */,
+				6EB76D6B2985780B00CC7731 /* AnimationsListView.swift */,
 				6EB76D5F298574B500CC7731 /* LottieView.swift */,
 			);
 			path = Views;
@@ -188,8 +188,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EB76D6A2985764900CC7731 /* FavouriteAnimation.swift in Sources */,
+				6EB76D6C2985780B00CC7731 /* AnimationsListView.swift in Sources */,
 				6EB76D4C2985703F00CC7731 /* LottieAnimationsListApp.swift in Sources */,
-				6EB76D5B298570DD00CC7731 /* AnimationView.swift in Sources */,
 				6EB76D60298574B500CC7731 /* LottieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
