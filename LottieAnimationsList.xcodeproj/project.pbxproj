@@ -13,6 +13,9 @@
 		6EB76D5B298570DD00CC7731 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB76D5A298570DD00CC7731 /* AnimationView.swift */; };
 		6EB76D5E2985743B00CC7731 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 6EB76D5D2985743B00CC7731 /* Lottie */; };
 		6EB76D60298574B500CC7731 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB76D5F298574B500CC7731 /* LottieView.swift */; };
+		6EB76D642985755D00CC7731 /* 133580-rocket.json in Resources */ = {isa = PBXBuildFile; fileRef = 6EB76D632985755D00CC7731 /* 133580-rocket.json */; };
+		6EB76D66298575B000CC7731 /* 132375-hypercube.json in Resources */ = {isa = PBXBuildFile; fileRef = 6EB76D65298575AF00CC7731 /* 132375-hypercube.json */; };
+		6EB76D68298575B600CC7731 /* 130334-sweet-run-cycle.json in Resources */ = {isa = PBXBuildFile; fileRef = 6EB76D67298575B600CC7731 /* 130334-sweet-run-cycle.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		6EB76D522985704100CC7731 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6EB76D5A298570DD00CC7731 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		6EB76D5F298574B500CC7731 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		6EB76D632985755D00CC7731 /* 133580-rocket.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "133580-rocket.json"; path = "../../../../../../Downloads/133580-rocket.json"; sourceTree = "<group>"; };
+		6EB76D65298575AF00CC7731 /* 132375-hypercube.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "132375-hypercube.json"; path = "../../../../../../Downloads/132375-hypercube.json"; sourceTree = "<group>"; };
+		6EB76D67298575B600CC7731 /* 130334-sweet-run-cycle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "130334-sweet-run-cycle.json"; path = "../../../../../../Downloads/130334-sweet-run-cycle.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				6EB76D4B2985703F00CC7731 /* LottieAnimationsListApp.swift */,
+				6EB76D612985752600CC7731 /* Animations */,
+				6EB76D622985753500CC7731 /* Model */,
 				6EB76D59298570CF00CC7731 /* Views */,
 				6EB76D4F2985704100CC7731 /* Assets.xcassets */,
 				6EB76D512985704100CC7731 /* Preview Content */,
@@ -78,6 +86,23 @@
 				6EB76D5F298574B500CC7731 /* LottieView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		6EB76D612985752600CC7731 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				6EB76D67298575B600CC7731 /* 130334-sweet-run-cycle.json */,
+				6EB76D65298575AF00CC7731 /* 132375-hypercube.json */,
+				6EB76D632985755D00CC7731 /* 133580-rocket.json */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		6EB76D622985753500CC7731 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +169,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EB76D642985755D00CC7731 /* 133580-rocket.json in Resources */,
 				6EB76D532985704100CC7731 /* Preview Assets.xcassets in Resources */,
+				6EB76D68298575B600CC7731 /* 130334-sweet-run-cycle.json in Resources */,
+				6EB76D66298575B000CC7731 /* 132375-hypercube.json in Resources */,
 				6EB76D502985704100CC7731 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
